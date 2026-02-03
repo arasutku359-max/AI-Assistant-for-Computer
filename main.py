@@ -1,7 +1,6 @@
 import asyncio
 import threading
 from voice_player import VoiceImagePlayer, edge_speak
-from speech_to_text import record_voice
 from groq_ai import get_response
 from aircraft_module import handle_aircraft_command
 
@@ -38,3 +37,4 @@ def main_loop():
 
 if __name__ == "__main__":
     main_loop()
+
